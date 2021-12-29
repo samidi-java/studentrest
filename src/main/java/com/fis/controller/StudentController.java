@@ -37,5 +37,11 @@ public class StudentController {
 	{
 		service.deleteStudentById(id);
 	}
+	
+	@GetMapping("/hello")
+	public String message()
+	{
+		return "Hello world";
+	}
 
 }
