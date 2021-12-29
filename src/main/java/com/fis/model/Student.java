@@ -2,6 +2,9 @@ package com.fis.model;
 
 import java.io.Serializable;
 
+/*
+ Student entity class
+*/
 
 public class Student implements Serializable {
 	
